@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="WPT">
+
+        <test name="Lesson 5">
+
+<!--            <parameter name="DriverName" value= "new FirefoxDriver()"/>-->
+<!--Browsers-->
+            <parameter name="preferredBrowser" value="Firefox"/>
+<!--            <parameter name="preferredBrowser" value="Chrome"/>-->
+<!--            Start and Home page-->
+            <parameter name="url" value="https://rozetka.com.ua/"/>
+
+
+        <classes>
+            <class name="Main.TesyNg"/>
+            <class name="Clas2_Packfge.Class_2"/>
+        </classes>
+
+        </test>
+
+
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T21:28:26 EET" name="WPT" finished-at="2023-02-27T21:28:42 EET" duration-ms="16444">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T21:28:26 EET" name="Lesson 5" finished-at="2023-02-27T21:28:42 EET" duration-ms="16444">
+      <class name="Clas2_Packfge.Class_2">
+        <test-method signature="case_1()[pri:0, instance:Clas2_Packfge.Class_2@d21a74c]" started-at="2023-02-27T21:28:38 EET" name="case_1" finished-at="2023-02-27T21:28:42 EET" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_1 -->
+      </class> <!-- Clas2_Packfge.Class_2 -->
+      <class name="Main.TesyNg">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Main.TesyNg@7530ad9c]" started-at="2023-02-27T21:28:26 EET" name="setUp" finished-at="2023-02-27T21:28:34 EET" duration-ms="8266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="case_1(java.lang.String)[pri:0, instance:Main.TesyNg@7530ad9c]" started-at="2023-02-27T21:28:34 EET" name="case_1" finished-at="2023-02-27T21:28:38 EET" duration-ms="3710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rozetka.com.ua/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_1 -->
+      </class> <!-- Main.TesyNg -->
+    </test> <!-- Lesson 5 -->
+  </suite> <!-- WPT -->
+</testng-results>
